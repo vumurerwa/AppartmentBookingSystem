@@ -1,3 +1,58 @@
+
+Project Requirement
+•	purpose of the project:
+
+The Appartment booking system is a web-based application aimed at simplifying the process of finding an apartment to lent for clients and apartment owners/managers. Developed using Thymeleaf for the frontend and Spring Boot for the backend, the platform caters to the needs of admins, apartment managers, and clients.
+•	Expected Outcomes:
+o	Appartment availability: Managers can add apartments, view list of their appartments, view booked appartments.
+o	Appartment booking: customers can search for specific city and see the available appartments in that city, be able to book one they want, and also provide their phone number for payment.
+o	Secure Access: Login with protected routes ensures secure access for authorized users.
+•	Specific Constraints or Limitations:
+o	Time Constraints: The project was supposed to be completed within 3 weeks
+o	Security constraints:
+	File Upload Security: Need to Implement file scanning mechanisms to detect and prevent potential threats.
+o	Scalability limitation: Handling an increased number of customers may pose challenges for apartment managers.
+
+Project Plan
+
+•	scope of the project:
+o	The project encompasses the development of a web-based assignment submission platform using Thymeleaf and Spring Boot.
+•	source code:
+o	The source code for the project is hosted on GitHub:
+	Backend: https://github.com/vumurerwa/AppartmentBookingSystem 
+	Frontend: https://github.com/vumurerwa/AppartmentBookingSystem
+	 Database schema
+•	Table definitions
+ 
+User Documentation
+•	Appartment availability:
+o	Managers can log in and add appartments, specifying details(available rooms,location),  view their appartments and view booked assignments.
+
+•	Appartment booking:
+o	Customers can search for a city and see all available appartments in that city and be able to book the one they one and provide their phone number for making the payment.
+•	Login Credentials:
+o	Admin:
+- Username - vixya@gmail.com, - Password – 123456
+Technical Documentation
+•	Architecture
+o	The application follows a client-server architecture, with Thymeleaf handling the frontend and Spring Boot serving as the backend.
+•	Implementation Details:
+o	Frontend:
+	THYMELEAF
+o	Backend:
+	JAVASCRIPT 
+	SPRING BOOT
+o	Database:
+	MYSQL 
+o	Dependencies:
+	Spring Boot Starter Web, Spring Boot Starter Data JPA,
+
+
+
+
+
+
+
 # HotelBookingApp
 
 `HotelBookingApp` is a minimalistic web application designed to simplify the hotel reservation process for both customers and hotel managers. It is crafted with Java and Spring Boot in backend, and Thymeleaf in frontend. The system adheres to the Model-View-Controller (MVC) architectural pattern.
